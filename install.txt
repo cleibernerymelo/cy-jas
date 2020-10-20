@@ -1,0 +1,4 @@
+$ cd /your/project/path --> Crie uma pasta diretamente no vs colde
+$ npm install cypress --save-dev
+./node_modules/.bin/cypress -v --> mostrou a versão
+./node_modules/.bin/cypress --> Abrir o cypress

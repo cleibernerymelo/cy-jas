@@ -1,0 +1,11 @@
+{
+  "projectId": "u1pncn",
+  "screenshotsFolder": "cypress/screenshot",
+  "experimentalSourceRewriting" : true,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "viewportWidth": 1024,
+  "viewportHeight": 768
+}
+
+

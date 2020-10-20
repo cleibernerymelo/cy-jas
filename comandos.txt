@@ -1,0 +1,24 @@
+npx cypress run --record --key b94512b9-9dc1-46ad-a97f-a738027c8d86
+
+../ -> isso faz subir um nivel na dom
+., -> identifica um determinado valor em qualquer ponto
+
+its -> ele pega uma propriedade do objeto. Desta forma quando eu uso o should, estou olhando para a propriedade do objeto
+
+before(() => {
+    // runs once before all tests in the block
+  })
+
+  beforeEach(() => {
+    // runs before each test in the block
+  })
+
+  afterEach(() => {
+    // runs after each test in the block
+  })
+
+  after(() => {
+    // runs once after all tests in the block
+
+    correr teste em nuvem
+    npx cypress run --record --key b5a8b8a0-8182-4a68-8a56-03f79c087e53

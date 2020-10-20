@@ -1,0 +1,28 @@
+{
+  "name": "Cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "beta": "0.0.1",
+    "firefox": "0.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^4.10.0",
+    "cypress-cucumber-preprocessor": "^2.5.3",
+    "cypress-xpath": "^1.6.0"
+  }
+}
+
